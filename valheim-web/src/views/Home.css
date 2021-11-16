@@ -1,0 +1,186 @@
+ /* * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: grey;
+} */
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+
+.background {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: none;
+    overflow: unset;
+    max-width: 20px;
+}
+/*  This is for styling the main container that holds everything */
+#container {
+    display: flex;
+    /* justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px; */
+
+
+    max-height: 1009px;
+    width: 100%;
+    /* position: flex; */
+}
+
+/* This styles the navbar and its contents */
+#navbar {
+    height: 60px;
+    width: 100%;
+    position: flex;
+    top: 20px;
+    left: 0;
+}
+
+/* This styles the logo in the navbar */
+/* #navbar #logo {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 3%;
+    top: -5px;
+} */
+
+/* This styles the logo image to be used in the navbar */
+/* #navbar #logo img {
+    height: 60px;
+    width: 60px;
+} */
+
+/* This styles the unlisted links in the navbar */
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+
+/* This changes the appearance of the listed links in the navbar */
+#navbar ul span {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 20px;
+    height: 60px;
+    width: 50px;
+    margin: 0 80px;
+    display: grid;
+    place-items: center;
+    color: rgb(189, 189, 189);
+}
+
+/* This sets the hover action of the navbar links */
+#navbar ul:hover .active {
+    background: none;
+    border: none;
+}
+
+/* This styles the descriptions of the 3D object */
+#content {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 10%;
+    top: calc(50% - 250px);
+}
+
+/* This styles the heading in the 3D description */
+#content h2 {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 140px;
+    font-weight: -50;
+    color: rgb(155, 72, 72);
+    filter: drop-shadow(2px 2px 2px rgb(87, 1, 1));
+    /* color: linear-gradient(to bottom, white, white, white, white); */
+}
+
+/* This styles the paragraph in the 3D description*/
+#content p {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(189, 189, 189);
+}
+
+/* This styles the button in the 3D description*/
+#content button {
+    width: 25%;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Averia Sans Libre', cursive;
+    margin-top: 5vh;
+    margin-left: 5%;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+}
+
+/* This adds some hover effects over the button */
+#content button:hover {
+    background: rgb(155, 72, 72);
+}
+
+/* This styles the social media icons*/
+#icons {
+    height: 500px;
+    width: 140px;
+    background: none;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 250px);
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(2px 2px 2px grey);
+}
+
+/* This styles the social media icons logos*/
+#icons #iconsLogo {
+    height: 300px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* This styles the social media icons logos images*/
+#icons #iconsLogo i {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(41, 202, 27);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+/* #aSide {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50% - 250px);
+    right: 7%;
+} */
+
+
+/* This styles the 3D object inserted in the aside container */
+
+/* #aSide model-viewer {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+} */
