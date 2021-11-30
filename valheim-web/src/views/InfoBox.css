@@ -1,8 +1,8 @@
-.infobox {
+/* .infobox {
     display: flex;
     position: absolute;
     height: 700px;
-    /* left: 30%; */
+    left: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
     color: red;
@@ -16,12 +16,6 @@
     
 }
 
-/* .infobox__image {
-    object-fit: contain;
-    width: 180px;
-    height: 180px;
-  } */
-
 .infobox__rating {
     display: flex;
   }
@@ -31,4 +25,4 @@
     font-weight: 800;
     text-align: justify;
     max-width: 50px;
-}
+} */
